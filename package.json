@@ -1,0 +1,19 @@
+{
+  "name": "cashmgr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "json-server --watch db.json --port 5000 --middlewares ./range.js",
+    "frontend": "npm start --prefix frontend",
+    "dev": "concurrently \"npm run server\" \"npm run frontend\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@mono.co/connect.js": "^0.2.2",
+    "concurrently": "^7.0.0",
+    "json-server": "^0.16.3"
+  }
+}

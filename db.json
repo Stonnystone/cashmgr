@@ -1,0 +1,239 @@
+{
+  "accounts": [
+    {
+      "id": 7,
+      "name": "Boluwatife Oluwole",
+      "account_type": 2,
+      "active": true,
+      "last_modified": "2022-02-24T06:17:35.927793Z",
+      "show_on_dashboard": true,
+      "iban": "0256893550",
+      "import_ibans": "[]",
+      "import_names": "[]"
+    },
+    {
+      "id": 3,
+      "name": "Dominic Ayanna",
+      "account_type": 1,
+      "active": true,
+      "last_modified": "2022-02-22T14:22:18.023715Z",
+      "show_on_dashboard": true,
+      "iban": "011234654",
+      "import_ibans": "[]",
+      "import_names": "[]"
+    },
+    {
+      "id": 4,
+      "name": "Gbemisola Adebayo",
+      "account_type": 1,
+      "active": true,
+      "last_modified": "2022-02-24T06:16:29.227015Z",
+      "show_on_dashboard": true,
+      "iban": "0211893559",
+      "import_ibans": "[]",
+      "import_names": "[]"
+    },
+    {
+      "id": 1,
+      "name": "Okuta Omeiza",
+      "account_type": 1,
+      "active": true,
+      "last_modified": "2022-02-22T14:19:54.552894Z",
+      "show_on_dashboard": true,
+      "iban": "0211893559",
+      "import_ibans": "[]",
+      "import_names": "[]"
+    },
+    {
+      "id": 6,
+      "name": "Osazwa Osagie",
+      "account_type": 2,
+      "active": true,
+      "last_modified": "2022-02-24T06:17:15.240345Z",
+      "show_on_dashboard": true,
+      "iban": "0256893557",
+      "import_ibans": "[]",
+      "import_names": "[]"
+    },
+    {
+      "id": 8,
+      "name": "Sundry Account",
+      "account_type": 3,
+      "active": true,
+      "last_modified": "2022-02-24T06:17:54.546418Z",
+      "show_on_dashboard": true,
+      "iban": "0056893550",
+      "import_ibans": "[]",
+      "import_names": "[]"
+    }
+  ],
+  "balances": [
+    {
+      "id": 1,
+      "amount": 1000,
+      "date": "2022-03-09",
+      "type": "1",
+      "created_at": "2022-03-09T14:41:46.898134Z"
+    },
+    {
+      "id": 2,
+      "amount": 2000,
+      "date": "2022-03-09",
+      "type": "1",
+      "created_at": "2022-03-09T14:41:59.238875Z"
+    },
+    {
+      "id": 3,
+      "amount": 5000,
+      "date": "2022-03-24",
+      "type": "2",
+      "created_at": "2022-03-09T14:42:13.100997Z"
+    }
+  ],
+  "categories": [
+    {
+      "id": 2,
+      "name": "Current",
+      "active": true,
+      "last_modified": "2022-03-09T14:51:01.531664Z"
+    },
+    {
+      "id": 4,
+      "name": "Expense",
+      "active": true,
+      "last_modified": "2022-03-09T14:51:21.580345Z"
+    },
+    {
+      "id": 1,
+      "name": "Savings",
+      "active": true,
+      "last_modified": "2022-03-09T14:50:51.925410Z"
+    },
+    {
+      "id": 5,
+      "name": "Student",
+      "active": true,
+      "last_modified": "2022-03-09T14:51:30.712932Z"
+    },
+    {
+      "id": 3,
+      "name": "Suspense",
+      "active": true,
+      "last_modified": "2022-03-09T14:51:14.896597Z"
+    }
+  ],
+  "inflows": [
+    {
+      "amount": 1000,
+      "date": "2022-03-24",
+      "type": 1
+    },
+    {
+      "amount": 3000,
+      "date": "2022-03-26",
+      "type": 4
+    },
+    {
+      "amount": 20000,
+      "date": "2022-03-01",
+      "type": 5
+    },
+    {
+      "amount": 2000,
+      "date": "2022-03-25",
+      "type": 3
+    }
+  ],
+  "outflows": [
+    {
+      "id": 1,
+      "amount": 200,
+      "date": "2022-03-09",
+      "type": 1,
+      "repetitive": false,
+      "repetition_interval": 1,
+      "repetition_time": 2,
+      "created_at": "2022-03-09T14:46:52.425137Z"
+    },
+    {
+      "id": 2,
+      "amount": 500,
+      "date": "2022-03-09",
+      "type": 2,
+      "repetitive": true,
+      "repetition_interval": 2,
+      "repetition_time": 1,
+      "created_at": "2022-03-09T14:47:18.453827Z"
+    },
+    {
+      "id": 3,
+      "amount": 100,
+      "date": "2022-03-09",
+      "type": 4,
+      "repetitive": true,
+      "repetition_interval": 3,
+      "repetition_time": 1,
+      "created_at": "2022-03-09T14:47:32.551839Z"
+    },
+    {
+      "id": 4,
+      "amount": 3000,
+      "date": "2022-03-09",
+      "type": 3,
+      "repetitive": true,
+      "repetition_interval": 4,
+      "repetition_time": 1,
+      "created_at": "2022-03-09T14:47:46.576965Z"
+    }
+  ],
+  "splits": [
+    {
+      "id": 2,
+      "title": "Second split",
+      "amount": "3000.00",
+      "date": "2022-03-24",
+      "last_modified": "2022-03-09T14:53:26.233730Z",
+      "account": 6,
+      "opposing_account": 3,
+      "category": 5,
+      "transaction": null
+    },
+    {
+      "id": 1,
+      "title": "First split",
+      "amount": "500.00",
+      "date": "2022-03-11",
+      "last_modified": "2022-03-09T14:52:44.888586Z",
+      "account": 4,
+      "opposing_account": 7,
+      "category": 4,
+      "transaction": null
+    }
+  ],
+  "transactions": [
+    {
+      "id": 1,
+      "title": "Cash recovery",
+      "date": "2022-03-10",
+      "notes": "just testing out this might turn out",
+      "transaction_type": 3,
+      "amount": "3000.00",
+      "last_modified": "2022-03-09T14:54:58.723570Z",
+      "src": 7,
+      "dst": 1,
+      "recurrence": null
+    },
+    {
+      "id": 2,
+      "title": "Cash reversal",
+      "date": "2022-03-10",
+      "notes": "payment for somthing nothing",
+      "transaction_type": 3,
+      "amount": "3000.00",
+      "last_modified": "2022-03-09T14:55:51.971762Z",
+      "src": 6,
+      "dst": 7,
+      "recurrence": null
+    }
+  ]
+}
